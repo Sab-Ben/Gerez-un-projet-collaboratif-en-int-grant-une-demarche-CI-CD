@@ -15,7 +15,7 @@ on:
     branches: [ "main" ]
 
 jobs:
-  BzckEnd:
+  BackEnd:
     runs-on: ubuntu-latest
     defaults:
       run:
