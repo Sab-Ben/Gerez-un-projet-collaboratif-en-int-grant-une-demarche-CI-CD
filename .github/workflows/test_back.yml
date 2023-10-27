@@ -15,9 +15,11 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build:
-
+  BzckEnd:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: back
 
     steps:
     - name : Checkout
